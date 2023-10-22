@@ -13,7 +13,8 @@
 ====================
   Table of Contents 
 ====================
-
+a. skills
+b. call to action
 1. Variables
 2. Common Styles
 3. General Style
@@ -34,7 +35,186 @@
 18. Libraries
 19. Media Queries
 
- */
+
+
+/*===========================
+        4.SERVICES css
+===========================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .services-area {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services-area {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+}
+
+.justify-content-center {
+  text-align: center;
+}
+
+.single-service {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #eceff8;
+  border-radius: 5px;
+  padding: 25px;
+  /* width: 360px; */
+  height: 100px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+@media (max-width: 767px) {
+  .single-service {
+    padding: 15px;
+  }
+}
+
+.service-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.service-title {
+  text-align: center;
+}
+
+.single-service .service-icon i {
+  font-size: 60px;
+  color: #ff7abd;
+  line-height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-service .service-title a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #32333c;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.single-service:hover .service-content .service-title {
+  color: #ff7abd;
+}
+
+.single-service:hover {
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+  box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+}
+
+/*===========================
+    4.CALL TO ACTION css
+===========================*/
+.call-to-action {
+  position: relative;
+  z-index: 9;
+  background-position: 0px -20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .call-to-action {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .call-to-action {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+}
+
+.call-to-action::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(68, 51, 66, 0.7);
+  z-index: -1;
+}
+
+.call-action-content .action-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .call-action-content .action-title {
+    font-size: 30px;
+  }
+}
+
+.call-action-content p {
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.call-action-content ul li {
+  display: inline-block;
+  margin: 10px 15px 0;
+}
+
+.call-action-content ul li .main-btn {
+  width: 180px;
+  padding: 0;
+}
+
+.call-action-content ul li .main-btn.custom {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #fff;
+  color: #ff7abd;
+  border-color: #fff;
+}
+
+.call-action-content ul li .main-btn.custom:hover {
+  background-color: #ff7abd;
+  color: #fff;
+  border-color: #ff7abd;
+}
+
+.call-action-content ul li .main-btn.custom-2 {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.call-action-content ul li .main-btn.custom-2:hover {
+  background-color: #ff7abd;
+  /* opacity: 0.8; */
+  color: #fff;
+  border-color: #fff;
+}
+
+*/
 /***********************************************************
   1. Variables 
 ************************************************************/
@@ -1269,6 +1449,10 @@ h6 {
 /***********************************************************
   16. Contact Section
 ************************************************************/
+#relocation {
+  margin-bottom: 30px;
+}
+
 .contact-section {
   padding-bottom: 60px;
   padding-left: 42px;
@@ -2097,6 +2281,9 @@ body #magicPointer.is-hover {
     padding-bottom: 80px;
     padding-left: 24px;
     padding-right: 24px;
+  }
+  .row {
+    text-align: center;
   }
   .contact-section .row .form-block {
     margin-bottom: 0;
