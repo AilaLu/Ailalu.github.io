@@ -10,6 +10,8 @@
  */
 /* 
 
+Theme color: #ff69b4
+
 ====================
   Table of Contents 
 ====================
@@ -92,7 +94,7 @@ b. call to action
 
 .single-service .service-icon i {
   font-size: 60px;
-  color: #ff7abd;
+  color: #ff69b4;
   line-height: 56px;
   display: flex;
   justify-content: center;
@@ -115,7 +117,7 @@ b. call to action
 }
 
 .single-service:hover .service-content .service-title {
-  color: #ff7abd;
+  color: #ff69b4;
 }
 
 .single-service:hover {
@@ -191,14 +193,14 @@ b. call to action
   -moz-box-shadow: none;
   box-shadow: none;
   background-color: #fff;
-  color: #ff7abd;
+  color: #ff69b4;
   border-color: #fff;
 }
 
 .call-action-content ul li .main-btn.custom:hover {
-  background-color: #ff7abd;
+  background-color: #ff69b4;
   color: #fff;
-  border-color: #ff7abd;
+  border-color: #ff69b4;
 }
 
 .call-action-content ul li .main-btn.custom-2 {
@@ -208,18 +210,17 @@ b. call to action
 }
 
 .call-action-content ul li .main-btn.custom-2:hover {
-  background-color: #ff7abd;
+  background-color: #ff69b4;
   /* opacity: 0.8; */
   color: #fff;
   border-color: #fff;
 }
 
-
 /*===========================
         5.WORK css
 ===========================*/
 
-.contact-form-wrap{
+.contact-form-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,8 +247,7 @@ b. call to action
   margin-top: 50px;
 }
 
-
-.work-des{
+.work-des {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +256,7 @@ b. call to action
   color: white;
 }
 
-.work-tools{
+.work-tools {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,12 +265,11 @@ b. call to action
   color: rgb(117, 79, 79);
 }
 
-.work-img-png{
+.work-img-png {
   width: 100%;
   height: 580px;
   object-fit: cover;
   object-position: top center;
-
 }
 
 .single-work .work-image img {
@@ -330,7 +329,7 @@ b. call to action
 
 .single-work .work-overlay .work-content ul::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 60px;
   height: 2px;
   background-color: #fff;
@@ -372,7 +371,7 @@ b. call to action
 
 .single-work .work-overlay .work-content ul li a:hover {
   background-color: #fff;
-  color: #ff7abd;
+  color: #ff69b4;
 }
 
 .single-work .work-overlay .work-content ul li:nth-of-type(1) {
@@ -414,13 +413,11 @@ b. call to action
   opacity: 1;
 }
 
-.single-work-1-wrap{
+.single-work-1-wrap {
   display: flex;
   justify-content: space-between;
   align-items: space-between;
-
 }
-
 
 .single-work-1 {
   position: relative;
@@ -485,7 +482,7 @@ b. call to action
 
 .single-work-1 .work-overlay .work-content ul::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 60px;
   height: 2px;
   background-color: #fff;
@@ -527,7 +524,7 @@ b. call to action
 
 .single-work-1 .work-overlay .work-content ul li a:hover {
   background-color: #fff;
-  color: #ff7abd;
+  color: #ff69b4;
 }
 
 .single-work-1 .work-overlay .work-content ul li:nth-of-type(1) {
@@ -569,13 +566,12 @@ b. call to action
   opacity: 1;
 }
 
-
-.circle{
+.circle {
   border-radius: 50%;
   width: 50px;
 }
 
-.aila-lu{
+.aila-lu {
   padding-left: 20px;
   font-size: larger;
 }
@@ -886,7 +882,7 @@ h6 {
 }
 .hero-area .image-wrapper img {
   /* width: 236px; */
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 .hero-area .link-group {
   margin-top: 60px;
